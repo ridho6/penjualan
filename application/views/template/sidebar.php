@@ -53,7 +53,7 @@
                     <a class="nav-link" href="<?php echo site_url('laporan/stok'); ?>">Laporan Stok</a>
                     <a class="nav-link" href="<?php echo site_url('laporan/pembelian'); ?>">Laporan Pembelian</a>
                     <a class="nav-link" href="<?php echo site_url('laporan/return'); ?>">Stok Barang</a>
-                    <a class="nav-link" href="<?php echo site_url('kustomer/kustomerlap'); ?>">Kustomer</a>
+                    <a class="nav-link" href="<?php echo site_url('kustomer/laporan'); ?>">Kustomer</a>
                   </nav>
                 </div>
               </nav>
