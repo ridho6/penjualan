@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Nov 04, 2024 at 10:42 AM
+-- Generation Time: Nov 08, 2024 at 08:10 AM
 -- Server version: 8.0.30
 -- PHP Version: 8.1.10
 
@@ -334,7 +334,7 @@ ALTER TABLE `kategori`
 -- AUTO_INCREMENT for table `kustomer`
 --
 ALTER TABLE `kustomer`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `pembelian`

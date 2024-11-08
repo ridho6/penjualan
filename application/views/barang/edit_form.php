@@ -7,7 +7,7 @@
     </ol>
     <div class="card mb-4">
       <div class="card-body">
-        <form action="<?php echo site_url('barang/save') ?>" method="post">
+        <form action="<?php echo site_url('barang/edit') ?>" method="post">
           <div class="mb-3">
             <label>Barkode <code>*</code></label>
             <input class="form-control" type="hidden" name="id" value="<?= $barang->id; ?>" required />

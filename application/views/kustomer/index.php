@@ -21,6 +21,10 @@
               <tr>
                 <th>No.</th>
                 <th>Name</th>
+                <th>Nik</th>
+                <th>Alamat</th>
+                <th>Telp</th>
+                <th>Action</th>
               </tr>
             </thead>
             <tbody>
@@ -33,6 +37,7 @@
                   <td>{$kustomer->name}</td>
                   <td>{$kustomer->alamat}</td>
                   <td>{$kustomer->telp}</td>
+                  <td>
                     <div>
                       <a href='" . base_url('kustomer/getedit/' . $kustomer->id) . "' class='btn btn-sm btn-info'><i class='fas fa-edit'></i> Edit</a>
                       <a href='" . base_url('kustomer/delete/' . $kustomer->id) . "' class='btn btn-sm btn-danger' 
